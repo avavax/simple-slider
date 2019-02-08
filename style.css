@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* стили слайдера */
+.slider {
+	border: 0.7rem solid white;
+	position: relative;
+}
+.slider-wrap {
+	overflow: hidden;	
+	width: 30rem;
+	height: 18rem;
+}
+/* стили слайдера */
+
+.slider-data {
+	display: none;
+}
+
+/* стили элементов управления */
+.nav-arrow {
+	position: absolute;
+	top: 50%;
+	transition: color 0.3s;
+}
+
+.nav-arrow:hover {
+	color: white;
+}
+
+.prev-arrow {
+	left: -4rem;
+}
+
+.next-arrow {
+	right: -4rem;
+}
+/* стили элементов управления */
